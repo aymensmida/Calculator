@@ -1,0 +1,57 @@
+.Title{
+  text-shadow: 2px 2px 5px red;
+}
+#output_1,#output_2{
+  background-color: rgb(250, 250, 250);
+  cursor: none;
+}
+#output_1 {
+  font-size: 12px;
+  
+}
+
+#output_2 {
+  font-size: 24px;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+}
+
+.custom-btn {
+ 
+  width: 100%;
+}
+
+
+.btn-number {
+  height: 55px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3px;
+  color: aliceblue;
+}
+.btn-number:hover{
+  background-color: rgb(53, 255, 2);
+  border: solid 1px white;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.btn-clear {
+  background-color: rgb(246, 11, 11);
+  color: aliceblue;
+  border: solid 1px white;
+  border-radius: 3px;
+  height: 55px;
+}
+.btn-clear:hover {
+  background-color: rgb(53, 255, 2);
+ 
+  border: solid 1px rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px lightblue;
+}
